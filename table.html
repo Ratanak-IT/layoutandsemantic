@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="shortcut icon" href="/HTML Day 2/gif/Server.gif" type="image/x-icon">
+    <style>
+        table{
+            width: 40%;
+        }
+        th, td{
+            padding: 5px;
+        }
+        table, tr, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        
+        thead{
+            background-color: lightblue;
+        }
+        tr:nth-child(even){
+            background-color: rgb(237, 242, 245);
+        }
+        tfoot{
+            background-color: rgb(196, 216, 223);
+        }
+        .fill{
+            background-color: rgb(221, 217, 217);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="https://www.cstad.edu.kh/">Istad</a>
+            <a href="about-us.html">About Us</a>
+            <a href="contect-us.html">Contect Us</a>
+            <a target="_self" href="mailto:ratanak1intel@gmail.com">Send Mail</a>
+            <a target="_self" href="tel:0964735981">Call Now</a>
+            <a href="sabay.html">sabay</a>
+            <a href="table.html">table</a>
+        </nav>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th rowspan="2">Id</th>
+                <th colspan="2">Membership dates</th>
+                <th rowspan="2">Balance</th>
+            </tr>
+            <tr>
+                <th style="background-color: lightgreen;">Joined</th>
+                <th style="background-color: lightcoral;">Cancelled</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="fill">Margaret</td>
+                <td>427311</td>
+                <td>June 3, 2010</td>
+                <td>n/a</td>
+                <td>0.00</td>
+            </tr>
+            
+            <tr>
+                <td class="fill">Edvard Galinski</td>
+                <td>533175</td>
+                <td>January 13, 2011</td>
+                <td>April 8, 2017</td>
+                <td>37.00</td>
+            </tr>
+            <tr>
+                <td class="fill">Hoshi Nakamura</td>
+                <td>601942</td>
+                <td>July 23,2012</td>
+                <td>n/a</td>
+                <td>15.00</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" style="text-align: right;">Total balance</th>
+                <th>52.00</th>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

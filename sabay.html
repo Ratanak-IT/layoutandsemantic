@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        table{
+            width: 25%;
+        }
+        iframe {
+            text-align: center;
+            width: 300px;
+        }
+        table, tr, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        thead{
+            background-color: aquamarine;
+        }
+        th, td{
+            padding: 5px;
+        }
+        tr:nth-child(even){
+            background-color: gainsboro;
+        }
+        .sabay{
+            width: 50%;
+            height:50vh;
+        }
+        .page{
+            display: block;
+            margin: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="https://www.cstad.edu.kh/">Istad</a>
+            <a href="about-us.html">About Us</a>
+            <a href="contect-us.html">Contect Us</a>
+            <a target="_self" href="mailto:ratanak1intel@gmail.com">Send Mail</a>
+            <a target="_self" href="tel:0964735981">Call Now</a>
+            <a href="sabay.html">sabay</a>
+            <a href="table.html">table</a>
+        </nav>
+    </header>
+    <main>
+        <div class="iframe">
+            <iframe class="sabay" src="https://news.sabay.com.kh/" frameborder="0"></iframe>
+            <iframe class="page"
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100066676217644&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="400" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+    </main>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Gender</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Thai Ratanak</td>
+                <td>00034</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Thai Ratanak</td>
+                <td>00034</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Thai Ratanak</td>
+                <td>00034</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Thai Ratanak</td>
+                <td>00034</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Thai Ratanak</td>
+                <td>00034</td>
+                <td>Male</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+
+</html>
